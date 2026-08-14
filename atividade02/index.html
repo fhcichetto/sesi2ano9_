@@ -1,41 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ativdade</title>
-</head>
-<body>
-<h1>Atividades Práticas – Introdução à Linguagem C</h1>
-
-<h2>Atividade 1 – Olá, Mundo!</h2>
-<p>
-    Crie um programa que exiba:
-    Olá, Mundo!
-    Bem-vindo à programação em C.
-</p>
-<h2>Atividade 2 – Apresentação</h2>
-<p>Solicite o nome e a idade do usuário e exiba uma mensagem de apresentação.</p>
-<h2>Atividade 3 – Soma</h2>
-<p>Leia dois números inteiros e exiba a soma.</p>
-<h2>Atividade 4 – Quatro operações</h2>
-<p>Leia dois números e mostre soma, subtração, multiplicação e divisão inteira.</p>
-<h2>Atividade 5 – Antecessor e sucessor</h2>
-<p>Leia um número inteiro e mostre seu antecessor e sucessor.</p>
-<h2>Atividade 6 – Média</h2>
-<p>Leia duas notas (float) e calcule a média.</p>
-<h2>Atividade 7 – Celsius para Fahrenheit</h2>
-<p>Leia uma temperatura em Celsius e converta usando F=(C*9/5)+32.</p>
-<h2>Atividade 8 – Área do retângulo</h2>
-<p>Leia base e altura e calcule a área.</p>
-<h2>Atividade 9 – Salário</h2>
-<p>Leia valor da hora e quantidade de horas trabalhadas. Calcule o salário.</p>
-<h2>Atividade 10 – Calculadora</h2>
-<p>
-    Leia dois números e mostre soma, subtração, multiplicação, divisão e resto da
-    divisão.
-</p>
-<h2>Desafio Extra</h2>
-<p>Solicite nome, idade, nota 1 e nota 2. Exiba uma ficha do aluno contendo os dados.</p>
-</body>
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Exercícios Práticos – Fundamentos da Linguagem C</title> 
+    <link rel="stylesheet" href="style.css"> 
+    </style> 
+</head> 
+<body> 
+ 
+    <h1>Exercícios Práticos – Fundamentos da Linguagem C</h1> 
+ 
+    <h2>Atividade 1 – Primeiro Programa</h2> 
+    <p>Descrição: Desenvolva um programa que apresente na tela as mensagens "Olá, Mundo!" e "Bem-vindo à programação em C."</p> 
+    <p>Explicação: A biblioteca stdio.h permite utilizar recursos como a função printf. O caractere \n é utilizado para iniciar uma nova linha na saída.</p> 
+    <img src="imagens/image.png" alt="Print da Atividade 1"> 
+ 
+    <hr> 
+ 
+    <h2>Atividade 2 – Dados do Usuário</h2> 
+    <p>Descrição: Peça ao usuário que informe seu nome e sua idade e, depois, apresente essas informações em uma mensagem.</p> 
+    <p>Explicação: Para armazenar o nome, foi utilizado um vetor de char, enquanto a idade é guardada em uma variável do tipo int. A função scanf realiza a leitura dos valores informados.</p> 
+    <img src="imagens/image2.png" alt="Print da Atividade 2"> 
+ 
+    <hr> 
+ 
+    <h2>Atividade 3 – Adição de Valores</h2> 
+    <p>Descrição: Receba dois números inteiros através do teclado e apresente o resultado da soma entre eles.</p> 
+    <p>Explicação: Os valores inteiros são recebidos utilizando %d e, em seguida, o operador + é utilizado para realizar a adição.</p> 
+    <img src="imagens/image3.png" alt="Print da Atividade 3"> 
+ 
+    <hr> 
+ 
+    <h2>Atividade 4 – Operações Matemáticas</h2> 
+    <p>Descrição: Informe dois números e calcule os resultados da soma, diferença, multiplicação e divisão inteira.</p> 
+    <p>Explicação: O programa utiliza os operadores matemáticos +, -, * e /. Antes de realizar a divisão, verifica se o segundo valor é diferente de zero.</p> 
+    <img src="imagens/image4.png" alt="Print da Atividade 4"> 
+ 
+    <hr> 
+ 
+    <h2>Atividade 5 – Número Anterior e Posterior</h2> 
+    <p>Descrição: Digite um número inteiro e descubra qual é o valor imediatamente anterior e o valor seguinte.</p> 
+    <p>Explicação: Para encontrar o número anterior, basta diminuir 1 do valor informado. Para encontrar o próximo, adiciona-se 1.</p> 
+    <img src="imagens/image5.png" alt="Print da Atividade 5"> 
+ 
+    <hr> 
+ 
+    <h2>Atividade 6 – Cálculo da Média</h2> 
+    <p>Descrição: Informe duas notas com casas decimais e encontre a média entre elas.</p> 
+    <p>Explicação: O tipo float é utilizado para trabalhar com valores decimais. A média é obtida através da soma das duas notas dividida por 2.</p> 
+    <img src="imagens/image6.png" alt="Print da Atividade 6"> 
+ 
+    <hr> 
+ 
+    <h2>Atividade 7 – Conversão de Temperatura</h2> 
+    <p>Descrição: Digite uma temperatura em Celsius e transforme o valor correspondente para Fahrenheit.</p> 
+    <p>Explicação: A conversão é realizada através da fórmula F = (C * 9 / 5) + 32, utilizando números decimais para obter um resultado mais preciso.</p> 
+    <img src="imagens/image7.png" alt="Print da Atividade 7"> 
+ 
+    <hr> 
+ 
+    <h2>Atividade 8 – Cálculo da Área</h2> 
+    <p>Descrição: Informe as medidas da base e da altura de um retângulo para descobrir sua área.</p> 
+    <p>Explicação: A área do retângulo é encontrada através da multiplicação entre a medida da base e a medida da altura.</p> 
+    <img src="imagens/image8.png" alt="Print da Atividade 8"> 
+ 
+    <hr> 
+ 
+    <h2>Atividade 9 – Cálculo do Pagamento</h2> 
+    <p>Descrição: Informe quanto é recebido por hora e o total de horas trabalhadas para calcular o salário.</p> 
+    <p>Explicação: O valor final é obtido multiplicando a quantidade de horas trabalhadas pelo valor correspondente a cada hora.</p> 
+    <img src="imagens/image9.png" alt="Print da Atividade 9"> 
+ 
+    <hr> 
+ 
+    <h2>Atividade 10 – Operações com Números</h2> 
+    <p>Descrição: Receba dois números e apresente os resultados das operações de soma, subtração, multiplicação, divisão e resto.</p> 
+    <p>Explicação: O programa realiza as principais operações matemáticas. O símbolo % é utilizado para encontrar o resto de uma divisão entre números inteiros.</p> 
+    <img src="imagens/image10.png" alt="Print da Atividade 10"> 
+ 
+    <hr> 
+ 
+    <h2>Desafio Adicional</h2> 
+    <p>Descrição: Cadastre o nome, a idade e duas notas de um estudante e apresente uma ficha contendo todas essas informações junto com a média.</p> 
+    <p>Explicação: Nesta atividade são combinados diferentes tipos de dados, como textos, números inteiros e valores decimais, formando uma apresentação organizada das informações do aluno.</p> 
+    <img src="imagens/image11.png" alt="Print do Desafio Extra"> 
+ 
+</body> 
 </html>
